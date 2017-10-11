@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+}
+
+li {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li:last-child {
+  width: 20px;
+  height: 15px;
+  background: url("../img/gb.svg") no-repeat center;
+  background-size: contain;
+}
